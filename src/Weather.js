@@ -49,13 +49,14 @@ export default function Weather(props) {
                 className="form-control"
                 autoFocus="on"
                 onChange={handleCityChange}
+                style={{color:'black', padding:'8px'}}
               />
             </div>
             <div className="col-3">
               <input
                 type="submit"
                 value="Search"
-                style={{background:'black', color:'white'}}
+                style={{background:'black', color:'white', padding:'8px'}}
               />
             </div>
           </div>
