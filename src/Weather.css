@@ -1,9 +1,10 @@
 .Weather {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border: 1px solid #366eb7;
+  border-width: thick;
   padding: 16px;
   border-radius: 4px;
-  color: rgb(178, 178, 178);
+  color: rgb(112, 42, 132);
 }
 
 .Weather h1 {
@@ -28,7 +29,7 @@
 
 .Weather .temperature {
   font-weight: bold;
-  color: rgb(4, 59, 61);
+  color: rgb(61, 137, 139);
   font-size: 64px;
   line-height: 64px;
   margin-left: 5px;
@@ -41,8 +42,8 @@
 }
 
 .Weather .unit {
-  color: rgb(4, 59, 61);
-  font-size: 16px;
+  color: rgb(61, 137, 139);
+  font-size: 16x;
   font-weight: 400;
   position: relative;
   line-height: 1;
